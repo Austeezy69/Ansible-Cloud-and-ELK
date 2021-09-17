@@ -4,7 +4,9 @@ Cloud Security ELK and DVWA set up
 
 The files in this repository were used to configure the network depicted below.
 
-![NetworkDiagram](https://user-images.githubusercontent.com/85475926/133734346-1115eca7-ee27-427b-bb84-b07ce6425cf6.PNG)
+![image](https://user-images.githubusercontent.com/85475926/133862263-60927d9e-679d-4add-9d8c-ee89f3e44674.png)
+
+
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
