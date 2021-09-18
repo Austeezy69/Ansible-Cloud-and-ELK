@@ -12,7 +12,8 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
   Playbook 1: Pentest.yml
-  ```---
+  ```
+---
 - name: Config Web VM with Docker
   hosts: webservers
   become: true
@@ -49,7 +50,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 ```
 
   Playbook 2: elk.yml
-  ```---
+  ```
+---
 - name: Configure Elk VM with Docker
   hosts: elk
   become: true
@@ -89,7 +91,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 ```
         
   Playbook 3: filebeat.yml
-   ``` ---
+   ``` 
+---
 - name: Installing and Launch Filebeat
   hosts: webservers
   become: yes
